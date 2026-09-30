@@ -1,0 +1,2322 @@
+{
+  "code_items": [],
+  "edges": [],
+  "schema": 3,
+  "spec_units": [
+    {
+      "anchor": "root",
+      "content_hash": "sha256:e931c7d470c7d85fd78ff60360e0d45096e0a5d1c6742684efa863a5df4ac96a",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1 - Distinguish Dependence, Cooperation and Parasitic Use",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ddcb53af42079d4bdd4d32083d3cedee7e8d8fece02523fd23589226c8ccc15a",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:340697786821e1e00994986ab13746da3df265cc02bcb6e9faa2a44c864ff2d3",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:9b31b9a585e77216207bf0ebef15fa69e6dde8897f5279ddc0722252ef54d77b",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:bfc45e155a3f99063a0c06cf9d58adc4c43e946ee6c1c67444f8d06cbc04b9d5",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#solution"
+    },
+    {
+      "anchor": "identify-the-variant-and-its-continuation",
+      "content_hash": "sha256:c7740cea25e86d3b75e6f17914bb99a8a2712c33ae5bc127b01c5d434cd2b151",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4.1 - Identify the variant and its continuation",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#identify-the-variant-and-its-continuation"
+    },
+    {
+      "anchor": "recover-the-enabling-relation",
+      "content_hash": "sha256:1cfcc50e42e7b20cd91e9f064ff545c0fca180c5953e954cb7172570104a1441",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4.2 - Recover the enabling relation",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#recover-the-enabling-relation"
+    },
+    {
+      "anchor": "compare-results-for-the-affected-participants",
+      "content_hash": "sha256:ea351faacca0341d0464b7b33292178a3d09ff875f7b1c0a120214a21496ce07",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4.3 - Compare results for the affected participants",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#compare-results-for-the-affected-participants"
+    },
+    {
+      "anchor": "relate-continuation-to-consequences",
+      "content_hash": "sha256:d8faac24ad6bfd867db517db64188ec58c75d5765b6948d587964814e9eb1251",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4.4 - Relate continuation to consequences",
+      "line": 65,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#relate-continuation-to-consequences"
+    },
+    {
+      "anchor": "choose-the-next-modeling-question",
+      "content_hash": "sha256:3c196241fa54c4b1ff69ee550c92cd347c968960ced88d40e0e0bf7dfe3042cf",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:4.5 - Choose the next modeling question",
+      "line": 80,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#choose-the-next-modeling-question"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:bce3cc06b085aff9abc28744562e0dcca0fb9b9cb8e9cc77b3460641dd9d65be",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:7 - Conformance Checklist",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:d21250c00af66f141dc470fd10821950dc81820fd9fda546a193867e6e911f95",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:9 - Consequences",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:0147f71e6710b79dfff30af61ce3905c57da6786db3604303cafb475c89a8ea0",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "DTM.1:12 - Relations",
+      "line": 98,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:284c52bf3dec7b585c2e651a1e1624f1ed3d5d51826852fc677e1260c85f6d0e",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "Dependencies",
+      "line": 107,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:ddbf1170940c7bdf8cdc8abed087d79fc222633d63081872986b566f938e9210",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "Dependencies (as published): FPF spec://ai.lev/fpf-spec/contract/A-6-P-RI#root, spec://ai.lev/fpf-spec/contract/C-36#root, spec://ai.lev/fpf-spec/contract/D-3#root/spec://ai.lev/fpf-spec/contract/D-4#root @status:spec/done",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:af7d2e92df8f5a3681b782b7ee3c862d06d02a760879dcd7c8c0f3d6e4f2e5f5",
+      "doc_path": "contract/DTM-1",
+      "file": "vibevm/vibespecs/contract/DTM-1.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-2#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-5#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-6#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-7#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-8#root @status:spec/done",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-1#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:24f2aee59112c90c23c2ada5a8109be3568f46b70ec105ddae1cc818784c83e3",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2 - Build a Transmission Law from Exposure and Uptake",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:4ad95f50a3fa422e40efd9fb2886edebd2c83f437d05544f23bc2b2a6eee9f04",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:094d5178af17116d9cbede6b474138d0aa4de02d02815cf1c58c6650759016ed",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:ebcb031b48441a6788d09a972da825a78d7eb275b628c30406c81dde82b6c8b1",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:3f59d8a41ec1118845438110fdc4f2ba1de39229594717a9c28bf2074b148120",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#solution"
+    },
+    {
+      "anchor": "name-the-event-to-be-predicted",
+      "content_hash": "sha256:54b2bd49bb9d35522a36d09a6ef1d98e2e0c5a5bf401b9f974d79b87f80de62c",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4.1 - Name the event to be predicted",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#name-the-event-to-be-predicted"
+    },
+    {
+      "anchor": "recover-exposure-and-the-conditions-of-uptake",
+      "content_hash": "sha256:e2fa39df8617cf610786f83889665d01a4cc9c11e975551c9818bc05822f0f92",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4.2 - Recover exposure and the conditions of uptake",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#recover-exposure-and-the-conditions-of-uptake"
+    },
+    {
+      "anchor": "choose-a-contact-law-that-matches-the-mechanism",
+      "content_hash": "sha256:1237689419ad37205f95a7814bf948bc92ae9573ea36f0abe37633b6d1a45922",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4.3 - Choose a contact law that matches the mechanism",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#choose-a-contact-law-that-matches-the-mechanism"
+    },
+    {
+      "anchor": "describe-what-the-recipient-obtains",
+      "content_hash": "sha256:56df9412de60e91485e782be45185b88af074188997a4c08a98d4df18268286b",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4.4 - Describe what the recipient obtains",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#describe-what-the-recipient-obtains"
+    },
+    {
+      "anchor": "connect-observation-and-further-transmission",
+      "content_hash": "sha256:c10ec476d22760f1639453f82e6e1cb5a6c1d3fee5e62ff3a689896f0bb1ac57",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:4.5 - Connect observation and further transmission",
+      "line": 95,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#connect-observation-and-further-transmission"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:101c393701f00dbfe26d1095fa74335ac1958889fffe5501a6ee2adacb51589a",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:7 - Conformance Checklist",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:2aa20cbf071475c8b055c523942e81a6806bd94ef681dd9697b5b2dc3ae8b0e7",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:9 - Consequences",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:3a2f12203460eb39b15bc783b54eead36c7f35e98036d30cd2661b82249d652f",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "DTM.2:12 - Relations",
+      "line": 116,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:89ac325aa302435aef60e54501636452f794adc899e577cfa3052dc5013fdda0",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "Dependencies",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:016a75dffc3e328e68b8cad8cf3da64f40a09dcc6fc03c648aa7c21e23b0bca3",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root; spec://ai.lev/fpf-think-mmp/contract/MMP-7#root/.11 @status:spec/done",
+      "line": 127,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:0bf480937928b6de2be4e83f7ae62a6d8a36c4598e83b3c0326f7c59000a95b9",
+      "doc_path": "contract/DTM-2",
+      "file": "vibevm/vibespecs/contract/DTM-2.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-3#root, spec://ai.lev/fpf-eng-dtm/contract/DTM-4#root @status:spec/done",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-2#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:56ec7763b24a4bca2ad8948d586d934eef6a89956f38e644113f17d395017251",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3 - Couple Change Within Carriers to Spread Between Them",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:c0c349614c74b8759c9d0c576e42164d46bb82988ca4c21507226394aa567cf6",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:dbca515ab15dcd9e59661c5072461a546a8a3dee8d8d00bbec74ef361a042332",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:995d2f70b577de6a6b2cda3215446a80365bf1efc090d02a4029be72eb6f6cbb",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:d22284934e27e8336ca4c977e4d4b9f1f5efca614e83703d52bb9f7008bb2417",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#solution"
+    },
+    {
+      "anchor": "identify-the-participant-state-that-can-change-transmission",
+      "content_hash": "sha256:6888438445352c30e8700aaa6bba61adbb84300b6e226f57ec3a879320f39658",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4.1 - Identify the participant state that can change transmission",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#identify-the-participant-state-that-can-change-transmission"
+    },
+    {
+      "anchor": "convert-the-state-into-a-transmission-contribution",
+      "content_hash": "sha256:e43bc06e3edac8f49d32f01ebc623dd9f4c08b1d01083d3aebd6967f3395c945",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4.2 - Convert the state into a transmission contribution",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#convert-the-state-into-a-transmission-contribution"
+    },
+    {
+      "anchor": "recover-the-feedback-from-wider-spread",
+      "content_hash": "sha256:6076db6eae26400be7847fb388c2abcae21d73e942bf7c2ec35a407da2168dd7",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4.3 - Recover the feedback from wider spread",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#recover-the-feedback-from-wider-spread"
+    },
+    {
+      "anchor": "choose-an-aggregation-that-preserves-the-needed-effect",
+      "content_hash": "sha256:bc7f835e4c00c6c7247d31d7ad7902dbff9a585b92d3c96340a4e9fe5b836474",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4.4 - Choose an aggregation that preserves the needed effect",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#choose-an-aggregation-that-preserves-the-needed-effect"
+    },
+    {
+      "anchor": "decide-whether-a-fast-process-may-be-reduced",
+      "content_hash": "sha256:0416160710d002407a990008b7f894f71a8e1a58f887439feee0dec9b82c3974",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:4.5 - Decide whether a fast process may be reduced",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#decide-whether-a-fast-process-may-be-reduced"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:1c9a2d23e1efa007699f3c4c3ea43947e3f49d9a102cc7e910f20966a595b458",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:7 - Conformance Checklist",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:9d16760175d1a13b8998d9a8ad4da758294c67f7187b0dc612913f3126caf186",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:9 - Consequences",
+      "line": 98,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:1e6e693cf8b8d6514c02b6fafde5d07dba2eb20e75a47793bbb60c7e6e4659f9",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "DTM.3:12 - Relations",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:c6a9fa3cd25ded0fc1f37ced1460f891085a7001f3b5f3a5b81c2eed4e40afe2",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "Dependencies",
+      "line": 111,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:3870a31c6053d8ac59eb0359faa0a0fd26a810c74b77b275b5fb808f155e0207",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-2#root; spec://ai.lev/fpf-think-mmp/contract/MMP-18#root @status:spec/done",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:32135d0fd0b025de7223fad6ef84c4fba3ac53acb7af9386418612781066128d",
+      "doc_path": "contract/DTM-3",
+      "file": "vibevm/vibespecs/contract/DTM-3.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-dtm/contract/DTM-9#root @status:spec/done",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-3#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:925c46da670b2fa6dc0d8656d47e79f2fe073fbcc6edf124076d5995216c9458",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4 - Find Conditions for Variant Invasion, Persistence and Return",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ff560b16e4dcad2e0cb52824dec0e54fa05eaa1cdbbe93b3ad806f529879afe3",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:08a87f2243d366300055ed152eb6a5e5b62f52e60311ae27e784729d4238151a",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:c51afa74af8baaae3988d396f750e54df53b1bea1433d30ae5bcd2e8c08eabc0",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:7077d777d2bb0c85549064ab65c4c50f5b8a529224dab048b15f7e1112b2f497",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#solution"
+    },
+    {
+      "anchor": "preserve-the-law-and-the-surrounding-conditions",
+      "content_hash": "sha256:45446c5a0f67cde510edf563fd223666d356e139329d4bfe37aaaf1705974cfa",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4.1 - Preserve the law and the surrounding conditions",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#preserve-the-law-and-the-surrounding-conditions"
+    },
+    {
+      "anchor": "test-a-rare-variant-in-a-specified-resident-regime",
+      "content_hash": "sha256:4ae746d0df9bfec969091b064d7199c1b5b9cc3215c1254849df66820f6b7df3",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4.2 - Test a rare variant in a specified resident regime",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#test-a-rare-variant-in-a-specified-resident-regime"
+    },
+    {
+      "anchor": "find-what-can-maintain-the-variant",
+      "content_hash": "sha256:f783d6f4725a334a11e4e06f56755d302846e15b36883ae4d2874741af2f8d40",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4.3 - Find what can maintain the variant",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#find-what-can-maintain-the-variant"
+    },
+    {
+      "anchor": "distinguish-a-temporary-displacement-from-a-changed-law",
+      "content_hash": "sha256:d07ec7f98802fc34eada6fee8ae084b4ff7d0e771a802c26bb592839f5121440",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4.4 - Distinguish a temporary displacement from a changed law",
+      "line": 65,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#distinguish-a-temporary-displacement-from-a-changed-law"
+    },
+    {
+      "anchor": "express-the-result-as-conditional-continuations",
+      "content_hash": "sha256:ae0b757a9152fb83f09c246df073a54b077dc4c999e6cb3bac264d1751e1c545",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:4.5 - Express the result as conditional continuations",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#express-the-result-as-conditional-continuations"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:9514d750261b7a48af79aac8162a6bd7f46b0a62e3ca1d0745f20ef3a48506f4",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:7 - Conformance Checklist",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:052fa35a7991e38e48eae80a7b6ef5572cc07e338a91d810d795ea599dc32a6c",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:9 - Consequences",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:bd6fbda2aa747c9fa2fd0ed2652ae40f7e80c68e193d582d641da18e13f94824",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "DTM.4:12 - Relations",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:0f950a5bcf18232d12a7b3e1db9ff6437acd4220b9e18466f880a7b31b12d099",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "Dependencies",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:1489cc917182ce2ee8fd2e48b358629ca6955169b3334dccb7e9a10efdd09fc2",
+      "doc_path": "contract/DTM-4",
+      "file": "vibevm/vibespecs/contract/DTM-4.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-2#root/.3; mathematical analysis @status:spec/done",
+      "line": 111,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-4#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:1f4399369f2fa927bde5c094f3bdef2221fadccdb9a6b68610b7eb1bde22d947",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5 - Separate Selection Within and Among Collectives",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:d7ce981711bd2fe4f7c32614074535a54b5fe5943b8f7abdfe4b90e000ece743",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:dbc8c4b80ca3d4dcac9cdd4e3e6ad2883e907bb1e63ece7ebd9b199bd0b9096e",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:10ebec17258af8c0ef7190d90dd68a355ce0e96eb1e614ecec561ab778b98335",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:28dadff55915cb27551f43878ea3b980ec1cf3161c570e923f47c0b5672bb3ea",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#solution"
+    },
+    {
+      "anchor": "decide-what-the-next-population-counts",
+      "content_hash": "sha256:15030aa15701e222022a4dcd2575f18a96b0936b8df5113a411d5360cfe854f8",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4.1 - Decide what the next population counts",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#decide-what-the-next-population-counts"
+    },
+    {
+      "anchor": "recover-contribution-weights-and-within-group-change",
+      "content_hash": "sha256:3e60da3ccbae11f9c161e2784e181bc0ecbf07c5c08e7d278bd6e82723e86f6f",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4.2 - Recover contribution weights and within-group change",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#recover-contribution-weights-and-within-group-change"
+    },
+    {
+      "anchor": "decompose-the-aggregate-change",
+      "content_hash": "sha256:02260b86a15255ead8259b40ee0f2a7ecb12d1fefa89a62a4471c5e9345a49cf",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4.3 - Decompose the aggregate change",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#decompose-the-aggregate-change"
+    },
+    {
+      "anchor": "test-the-proposed-selection-mechanisms",
+      "content_hash": "sha256:ca163c4f7f64e17ad039dac506b6b1bf4bcc5439a50c94906869f88ec9fa3ff2",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4.4 - Test the proposed selection mechanisms",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#test-the-proposed-selection-mechanisms"
+    },
+    {
+      "anchor": "return-the-decomposition-to-the-work-question",
+      "content_hash": "sha256:79a1dacf61df7b4372d901652c0e46dee9d161b33bf5c2a5e49669992d731c26",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:4.5 - Return the decomposition to the work question",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#return-the-decomposition-to-the-work-question"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:01b16c85370340f1a98f760259792a193e25dd9957c9095a36dbbbf101226af2",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:7 - Conformance Checklist",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:c69781ac95355a0e4314b42a17001042d9b305fc63a374f88ce818326392b709",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:9 - Consequences",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:8d787e2fbd60dd571fb9035fc017b1af985f8c9d46474a9eb96d19254e58794e",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "DTM.5:12 - Relations",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:ea2b59c3d0960c3f6e162deafaf6d194a0a47b510c8e2fe5acd89450a3693bb3",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "Dependencies",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:aae457308bab6ba542081d61fee7ca9f637e67801eb120924a8963a15a9028f8",
+      "doc_path": "contract/DTM-5",
+      "file": "vibevm/vibespecs/contract/DTM-5.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root/.2; spec://ai.lev/fpf-think-mmp/contract/MMP-16#root @status:spec/done",
+      "line": 124,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-5#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:092fee239c40dc07119fdf60e71437e234600c1b7c0b335df251d9e5f7beb2ef",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6 - Model Competition and Facilitation between Variants",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:93cff270279cf72925701cee9e2c51ee4656074e0dd8216121a3ae69e03eac1e",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:21ff5516b6cf04d9c88ba459bc9e2d6f7e25d98ae46a7c0af14334042b8e7ca4",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:bc31c7e5a50c12f65933fc052af97462287b65588cb0447826914681fffb327e",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:9fb7cd0cc0623746521afff5c3c6550d93c9f956d28f7976e8afa7dad5473b17",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#solution"
+    },
+    {
+      "anchor": "name-the-variants-result-and-comparison",
+      "content_hash": "sha256:80abe5f28193ea16111bf9c52c436cb08530eb0fbdf6314cb69eef0c35236405",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4.1 - Name the variants, result and comparison",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#name-the-variants-result-and-comparison"
+    },
+    {
+      "anchor": "recover-the-intermediary",
+      "content_hash": "sha256:e8e16df9b775d04c62e211bd18f7ce7e3925ab128eb2746fb5921ec495d0ac78",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4.2 - Recover the intermediary",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#recover-the-intermediary"
+    },
+    {
+      "anchor": "build-the-dependence-from-the-relation",
+      "content_hash": "sha256:5f9fc7ff78faf592b3782cd5fc4359bfee74e29458168f05fe3218f825de458b",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4.3 - Build the dependence from the relation",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#build-the-dependence-from-the-relation"
+    },
+    {
+      "anchor": "compare-independent-and-coupled-results",
+      "content_hash": "sha256:ce5eac8dc92ab33a7394382e19a6ef7514150221a0d7db4b1e72aa1ca8fa5239",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4.4 - Compare independent and coupled results",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#compare-independent-and-coupled-results"
+    },
+    {
+      "anchor": "choose-a-distinguishing-observation-and-pass-the-result-on",
+      "content_hash": "sha256:336906127a9ea88137f3780699de268af2af5f0ef60549fc6a3e3d4f864dfcdf",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:4.5 - Choose a distinguishing observation and pass the result on",
+      "line": 74,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#choose-a-distinguishing-observation-and-pass-the-result-on"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:82759f269cc683a3d8c5205e5ce25eabe90b3e45afd56a31d173d5822048c802",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:7 - Conformance Checklist",
+      "line": 80,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:1e644c875df7eaddbdc2960b77d0199f08c51f1b215a480f102eca29999d0bdf",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:9 - Consequences",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:1ec30e8bbad9aa3573a8640e95687ff29d33c4ad2f0fc071944944c38885c8db",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "DTM.6:12 - Relations",
+      "line": 94,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:2f69c4a51c0bd41dc9a1d22bd6bcbe4ea3c4ee4bac717e5bd527f8c62e52b1ae",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "Dependencies",
+      "line": 104,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:08f70ad7d80b2a3cdb87fb3499897cefd2d5bcee823a36f962969587bf33582f",
+      "doc_path": "contract/DTM-6",
+      "file": "vibevm/vibespecs/contract/DTM-6.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root/.2; spec://ai.lev/fpf-think-mmp/contract/MMP-11#root/.16 @status:spec/done",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-6#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:0b5e2bfe0a50326c4ac040b8ab106fc69608447b5e654ad16ac996b32029b6c2",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7 - Locate Diversion of a Shared Control or Cooperation Mechanism",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:55b92f820f38a58bbf1ca37dc0a18e614b1e7b4a29de4c245b1bea357a4f5925",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:cb50c719eabd7c5c1913ada32be8cd91fe9d7f491790be515d1ac93e7ce71059",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:3ac6fff1bedeab37d7029283609347c719679962aac818210566b9488eea1e9f",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:0e87615bbab14ad187e8d8b1238e1dbe4e092d2f55f8b0a683e1105e4b5995f4",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#solution"
+    },
+    {
+      "anchor": "recover-the-intended-result-and-affected-parties",
+      "content_hash": "sha256:0d5ccfd89f513705224c6b86001c2079febbcbde6cfe3794df38d9c9caf6aafc",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4.1 - Recover the intended result and affected parties",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#recover-the-intended-result-and-affected-parties"
+    },
+    {
+      "anchor": "follow-one-grant-of-support",
+      "content_hash": "sha256:a22299e76640d093209aa1979e5fec256fb28fc66c55e79c32b1e4e78f199f50",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4.2 - Follow one grant of support",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#follow-one-grant-of-support"
+    },
+    {
+      "anchor": "locate-the-mismatch-and-the-continuation-feedback",
+      "content_hash": "sha256:763fb6cbf29dbc6eced03a51a22844d2df8e975fcf97335dbb1e75c7e7c86543",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4.3 - Locate the mismatch and the continuation feedback",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#locate-the-mismatch-and-the-continuation-feedback"
+    },
+    {
+      "anchor": "compare-a-causal-change-with-a-serious-alternative",
+      "content_hash": "sha256:8e03f7211a1cceacc74478c5d10766484de0368461c6dbc8e4138ce703daa19e",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4.4 - Compare a causal change with a serious alternative",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#compare-a-causal-change-with-a-serious-alternative"
+    },
+    {
+      "anchor": "design-the-smallest-consequential-correction",
+      "content_hash": "sha256:404c6bab39797382c1212e2da8ec2ab1015a4df19c85086a95014d9d43ec1aad",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:4.5 - Design the smallest consequential correction",
+      "line": 88,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#design-the-smallest-consequential-correction"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:7364ded9d582b54dc8a112eeec5803534631db6d769b1d2a95fe1a280a098bba",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:7 - Conformance Checklist",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:8e8ed9d85dc9374b6258d687740de7d49927417b21bc622f0846fcc0f9f56022",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:9 - Consequences",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:02785ed08c037d5b3985f83afa0974752e0cbd1a6633c9e98093eef71025cb42",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "DTM.7:12 - Relations",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:c3a48f8e19bb601fbf8a7e2aa85f5847894a79adffdbb2a7c57adbd90f0ac243",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "Dependencies",
+      "line": 120,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:0fdbb2c01ed083854fba4bf4ac73631b754375f7da491b282348536aefc43631",
+      "doc_path": "contract/DTM-7",
+      "file": "vibevm/vibespecs/contract/DTM-7.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root/.2; FPF spec://ai.lev/fpf-spec/contract/C-30-LCA#root; spec://ai.lev/fpf-think-mmp/contract/MMP-16#root @status:spec/done",
+      "line": 122,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-7#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:ab34a9c315dfb050fe2c420f397f2d718352ffa7886556cf07e95948471f7844",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8 - Compare Protective Actions against Continuing or Spreading Activity by Target and Remaining Effects",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:d1760a3ac3a06bb0b0796ab873b3f181768b16a05c24a23994fa7f7598dcb36d",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:de8c33ef556e765438087640b6bb4c310f2bbda327240681b56d2d6d6901bcda",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:6b2485e6e17f066a2e4e8eb237012e43d2c036f9970e4f07079d193da82158d7",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:a8305e7630f05522d70ff24f7c85caefc70c01b1eb73c1693c1e2f3730be5d5f",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#solution"
+    },
+    {
+      "anchor": "restore-the-reference-of-protection",
+      "content_hash": "sha256:aad52e3a85c77ff5c53e239e3b2c42fd05066630be03bae741bce7590ef1b6ed",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4.1 - Restore the reference of protection",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#restore-the-reference-of-protection"
+    },
+    {
+      "anchor": "locate-each-proposed-change",
+      "content_hash": "sha256:25a9cbdf5817d4db8685088ea018a440e72b2734d5a6d5fc5679fcef1eb0acbd",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4.2 - Locate each proposed change",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#locate-each-proposed-change"
+    },
+    {
+      "anchor": "construct-the-change-and-its-residual-effects",
+      "content_hash": "sha256:002ae09c1137a4199cf482e9486b4243d7988cbb839749b9db9f8e5fcb40e863",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4.3 - Construct the change and its residual effects",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#construct-the-change-and-its-residual-effects"
+    },
+    {
+      "anchor": "check-implementation-across-the-method-vertical",
+      "content_hash": "sha256:4ba74a33887cae0874f65e004bb747604ac9549e3e9fb6b503d9867cab2204e0",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4.4 - Check implementation across the method vertical",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#check-implementation-across-the-method-vertical"
+    },
+    {
+      "anchor": "compare-combinations-and-the-unchanged-option",
+      "content_hash": "sha256:0f5dd391d6c00375117103c53f1037507acc90a0d0373f0dbe0280f5993d4d2f",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:4.5 - Compare combinations and the unchanged option",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#compare-combinations-and-the-unchanged-option"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:26bf01526a0c52a248715628ce53af5cc14ed3f0c75590234ea814d83175d638",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:7 - Conformance Checklist",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:de7c718a173d49dbffe58defa819ed4d38d822ff7b1e03f400c1449b7d095725",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:9 - Consequences",
+      "line": 95,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:f246be4968b767aacff8c684857ffabd8faf0d49e1de79125a2902ca3159c19b",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "DTM.8:12 - Relations",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:b0bca713aa37ac9fc3757f8855f26e0e05e0f2cbc3a2f800728d6cb34d3ca013",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "Dependencies",
+      "line": 108,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:eb73c015295dd8c166f04c6f74aa888eedfa13deb4f1ec9d3e725410e483770b",
+      "doc_path": "contract/DTM-8",
+      "file": "vibevm/vibespecs/contract/DTM-8.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-1#root–3; FPF spec://ai.lev/fpf-spec/contract/C-32-MWA#root @status:spec/done",
+      "line": 110,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-8#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:91c3e07c32e0e12ca395270e0730496f616c66606a5c6c7ecf4a59c95db3e2f7",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9 - Model Damage and Feedback from Protective Responses to Continuing or Spreading Activity",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:8026307bd1f17420081299268e4701eac695b357714f6ffd699462c75cc15584",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:1 - Problem frame",
+      "line": 10,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:9fb3f5c7763057ad878b74512509eb5840c10cb9adcd74dd41f912ec9ded5859",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:2 - Problem",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:9695d60b2a70caaea76d5ffde397ab44363329affef1fc0c0526e0d5d66fc442",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:3 - Forces",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:6c401b5d19030b91d5fc5ffa2a71da6c4694080c0617c1bf1ad05738ecbd912e",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4 - Solution",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#solution"
+    },
+    {
+      "anchor": "identify-the-response-and-its-information",
+      "content_hash": "sha256:c4ae76d9f9982b76ecbd028f1c6c30d0c31de7e5d5549b7004bd1bb0ea099350",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4.1 - Identify the response and its information",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#identify-the-response-and-its-information"
+    },
+    {
+      "anchor": "choose-the-response-state-and-time-description",
+      "content_hash": "sha256:778f4d19dae7091b0bc42e1ecbdcc8da89c47e3e20d7fd71dabfc32874eb4668",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4.2 - Choose the response state and time description",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#choose-the-response-state-and-time-description"
+    },
+    {
+      "anchor": "follow-effects-on-useful-work-unwanted-activity-and-transmission",
+      "content_hash": "sha256:01ff5a0adb38332a5b2b322f9807277c9c7576052d2be8aedb8fca1c325b13ee",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4.3 - Follow effects on useful work, unwanted activity and transmission",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#follow-effects-on-useful-work-unwanted-activity-and-transmission"
+    },
+    {
+      "anchor": "account-for-response-costs-and-restoration",
+      "content_hash": "sha256:e867054b403d5ffb66d074499844a4fff3bd406b2eafdd97132688488ce23e26",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4.4 - Account for response costs and restoration",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#account-for-response-costs-and-restoration"
+    },
+    {
+      "anchor": "compare-regimes-transients-and-changed-variants",
+      "content_hash": "sha256:c2638f27df9d6a65fbfcb6c9ce6731d55fadcf7bc108228d8cf39fe246828ecd",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:4.5 - Compare regimes, transients and changed variants",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#compare-regimes-transients-and-changed-variants"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:3742f8402cb306328dd66fa05a26c48693b850998d3d716f796154479900b37d",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:7 - Conformance Checklist",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:27cd3eb0228b3ac601e459f4d076267b58d6f3deb9efb11c617107082ff9ea58",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:9 - Consequences",
+      "line": 96,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:10f4b0d41d46020ae91c64d2d611489eeccf9c57d1c27300d8f3c7c36aa4a258",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "DTM.9:12 - Relations",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:ad2506b64be85d8f7916dfb96b304d77aa83c7b2639c6cb4e2fd3b0f037ece4b",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "Dependencies",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:9d4708d26aeb73f6762c2e459f12022e2caa55e2c639aa1799e8d1fbfce872d8",
+      "doc_path": "contract/DTM-9",
+      "file": "vibevm/vibespecs/contract/DTM-9.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-dtm/contract/DTM-3#root/.4/.6/.8; spec://ai.lev/fpf-think-mmp/contract/MMP-18#root; FPF spec://ai.lev/fpf-spec/contract/C-30-LCA#root @status:spec/done",
+      "line": 111,
+      "uri": "spec://ai.lev/fpf-eng-dtm/contract/DTM-9#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:32b6c650eee0b1aabc97d6632a624af1b1801278c0500fb55e9c07c6a82bc4f3",
+      "doc_path": "pub/ABOUT",
+      "file": "vibevm/vibespecs/pub/ABOUT.md",
+      "heading": "Defense and Transmission Modeling DPF",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/ABOUT#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:8aa25993bfbd9b92f576c9ec55d60cf7fffe1acc869a885f1306857d49d1e26f",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "Preface",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#root"
+    },
+    {
+      "anchor": "preface-1",
+      "content_hash": "sha256:5d75849b1f703f1d3a4f0ea28d1361a3f2b8ccdda807eea4ec0fa4e193266de8",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:1 - The working problem and field",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-1"
+    },
+    {
+      "anchor": "preface-2",
+      "content_hash": "sha256:03f1090648f56ad8d47db056ebb324f4c59ab6b52f45648c86ef36af1fdc2ad8",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:2 - How the language holds the problem together",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-2"
+    },
+    {
+      "anchor": "preface-3",
+      "content_hash": "sha256:c6f256774899f1b22b13c6246e1911ee4f0efb6ddc163591c07bae0abff38b34",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:3 - A connected worked inquiry",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-3"
+    },
+    {
+      "anchor": "preface-4",
+      "content_hash": "sha256:7dc5f5c219562c2b0aec0ee88611684dc727fa40d0715644da53aa0f674629b3",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:4 - Protection and the simultaneous method vertical",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-4"
+    },
+    {
+      "anchor": "preface-5",
+      "content_hash": "sha256:239ff5e7d8d9d4492809c8197f1b8d3c3ef46f203c806db1618a6457196f0e81",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:5 - What counts as a useful result",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-5"
+    },
+    {
+      "anchor": "preface-6",
+      "content_hash": "sha256:b691acd94041eb6ce789fec6ce9cb9acea3618ea3c0142e4274e14c0e955cb0b",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:6 - Rationale, synthesis and alternatives",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-6"
+    },
+    {
+      "anchor": "preface-7",
+      "content_hash": "sha256:5ee4cbfde72ecfff6b319dcf5e6db6ad8151be4fe326813c230a818f052981f0",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:7 - External methods and publication use",
+      "line": 108,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-7"
+    },
+    {
+      "anchor": "preface-end",
+      "content_hash": "sha256:2cbb22b964c75a90d6bfd8eb7396ff02e5e71aec2f89dbb5773c20bac2734928",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "DTM.Preface:End",
+      "line": 128,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/PREFACE#preface-end"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:00824309dc7f64c921d098022d5446234194fd6b596d9710a7cd499206baa2dd",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Defense and Transmission Modeling DPF Readme",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#root"
+    },
+    {
+      "anchor": "practical-entries",
+      "content_hash": "sha256:3113fcb8fb9c04f884c14f2e4ae8c4b57ecbe22a6104b777e2c9ba245fd6bee9",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Practical entries",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#practical-entries"
+    },
+    {
+      "anchor": "dependence-a-useful-service-is-being-called-a-parasite",
+      "content_hash": "sha256:ad379b6321e88e6249c4b44dbb5542bb01b2ab755eacf1dfa329e76dd229642b",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "DEPENDENCE — A useful service is being called a parasite",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#dependence-a-useful-service-is-being-called-a-parasite"
+    },
+    {
+      "anchor": "practical-use-cards",
+      "content_hash": "sha256:0b20048c76d1181ddb286520f8484e5a5c5d3aad96176ef7a9f17472ba632639",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Practical-Use Cards",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#practical-use-cards"
+    },
+    {
+      "anchor": "innovation-a-useful-change-meets-protection",
+      "content_hash": "sha256:ee70b1f5067714751d739d7c8e4c43c58ef86740fe83393998bfb032d8620a52",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "INNOVATION — A useful change meets protection",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#innovation-a-useful-change-meets-protection"
+    },
+    {
+      "anchor": "diversion-a-spreading-procedure-undermines-the-work",
+      "content_hash": "sha256:be6014c5555aa2dcf95e00c7b7e1b484d99b0ebcdfa3fd5e886c09fd767fbf10",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "DIVERSION — A spreading procedure undermines the work",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#diversion-a-spreading-procedure-undermines-the-work"
+    },
+    {
+      "anchor": "recovery-restore-a-capability-without-restoring-everything",
+      "content_hash": "sha256:ed25f386d158ed96a042f680283ec6c00926a87f40725d05da67675c5c4b478c",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "RECOVERY — Restore a capability without restoring everything",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/README#recovery-restore-a-capability-without-restoring-everything"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a61483b0b53dda45ddcdff9516fb93282ad460f51627b598f0716cb31f31f6d1",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Table of Contents",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/TOC#root"
+    },
+    {
+      "anchor": "public-units",
+      "content_hash": "sha256:c0fe78f9bc98503f0f28e138541e6147024fa085504583e6aa85397c5e967dc2",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Public units",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/TOC#public-units"
+    },
+    {
+      "anchor": "part-i-dependence-transmission-and-continuation",
+      "content_hash": "sha256:55b422ebbb29f6693254906fbac7d5003f66c20877e98414b8f49d4808ede8b5",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Part I — Dependence, transmission and continuation",
+      "line": 14,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/TOC#part-i-dependence-transmission-and-continuation"
+    },
+    {
+      "anchor": "part-ii-competition-coexistence-and-diversion",
+      "content_hash": "sha256:c1160a08e68329998fed99df0dbeb2384845d2cbe73be8947a7427ae84c7146c",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Part II — Competition, coexistence and diversion",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/TOC#part-ii-competition-coexistence-and-diversion"
+    },
+    {
+      "anchor": "part-iii-protective-action-and-its-consequences",
+      "content_hash": "sha256:9e2bf859a5602b2d0c77fbaaa4b711f05ac189662ddfc65e92afc022b3c80c5a",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Part III — Protective action and its consequences",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/TOC#part-iii-protective-action-and-its-consequences"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a3109c4d12a37eb66ea6e1ba899f42c0b416b4bb1561a00674cafeff78a3a665",
+      "doc_path": "pub/parts/part-i-dependence-transmission-and-continuation",
+      "file": "vibevm/vibespecs/pub/parts/part-i-dependence-transmission-and-continuation.md",
+      "heading": "Part I — Dependence, transmission and continuation",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/parts/part-i-dependence-transmission-and-continuation#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:a566d0f38cbaeffcb9111f50c3c3aa84fbab9452f939a115241b9d4e9509d0f2",
+      "doc_path": "pub/parts/part-ii-competition-coexistence-and-diversion",
+      "file": "vibevm/vibespecs/pub/parts/part-ii-competition-coexistence-and-diversion.md",
+      "heading": "Part II — Competition, coexistence and diversion",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/parts/part-ii-competition-coexistence-and-diversion#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:2ae15ea15bbd0e4075b768cffe003a3361687abeca7ef1bf89bd30e045e9adf5",
+      "doc_path": "pub/parts/part-iii-protective-action-and-its-consequences",
+      "file": "vibevm/vibespecs/pub/parts/part-iii-protective-action-and-its-consequences.md",
+      "heading": "Part III — Protective action and its consequences",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/pub/parts/part-iii-protective-action-and-its-consequences#root"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:104709bf2911930548e5dea3c09176b98fd03bb6e931fa2df17f767bb5de472a",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1 - Distinguish Dependence, Cooperation and Parasitic Use: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:d5a36ee8270316281f622b0b44fd1b91087e8c026f050204e9c417d8d1c535b9",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#archetypal-grounding"
+    },
+    {
+      "anchor": "a-service-improves-work-but-concentrates-dependence",
+      "content_hash": "sha256:771b4cb0c3a535acb6285d42e25368aa359a7572c3df257fc45e5772533871dd",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:5.1 - A service improves work but concentrates dependence",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#a-service-improves-work-but-concentrates-dependence"
+    },
+    {
+      "anchor": "the-same-spread-permits-opposite-evaluations",
+      "content_hash": "sha256:04752498ee03d16d2f42558d21a29bc5f0f27b9627157f84375beda67aae89f6",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:5.2 - The same spread permits opposite evaluations",
+      "line": 17,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#the-same-spread-permits-opposite-evaluations"
+    },
+    {
+      "anchor": "a-remembered-movement-is-not-the-promised-capability",
+      "content_hash": "sha256:62f39c8d2c17bcee90b15b17e808e589a400f2b8398c06a4bd2a639c7e3ae9a7",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:5.3 - A remembered movement is not the promised capability",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#a-remembered-movement-is-not-the-promised-capability"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:a8938d3f140d5328592c8b075a2e90178c9912833b5ee7b5d6693cbfdb064865",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:6 - Bias-Annotation",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:421c79e550a8d935be640d8dc58ad2503119b390252049a2e41e08788aefb75a",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 35,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:46cfa1d84701dec827539ee20fe02699894a6c580c54e90da856a61d373d5a3e",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:10 - Rationale",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:25a6087e7e33fe6e664f550d4403605ea9f2f3ace3eb9aec28586ff75dedf026",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:11 - SoTA-Echoing",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:8eab6187b4705ab98ac4a4f3c037d0e06d064212d6153da707011cca5661d226",
+      "doc_path": "source/DTM-1",
+      "file": "vibevm/vibespecs/source/DTM-1.md",
+      "heading": "DTM.1:End",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-1#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:9eddddde369c304cef3ac6c1df1d6dbe1f2eec7d35877cde370e289e8403be58",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2 - Build a Transmission Law from Exposure and Uptake: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:b1c184b293f337e2b22777c5f0ec3848d7cf39ee73d2930c81a186ec2029345e",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#archetypal-grounding"
+    },
+    {
+      "anchor": "transmission-can-reconstruct-the-practice",
+      "content_hash": "sha256:2991070d49703d4c97a966617b022d5d1b12eaf25e3b64da4e4842fb9efc27d2",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:5.1 - Transmission can reconstruct the practice",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#transmission-can-reconstruct-the-practice"
+    },
+    {
+      "anchor": "reinforcement-is-a-different-law",
+      "content_hash": "sha256:d2d7ac4515e80d5129d0bf393d303b7ba885c43b75c3052e33da7e19d5424500",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:5.2 - Reinforcement is a different law",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#reinforcement-is-a-different-law"
+    },
+    {
+      "anchor": "a-demonstration-reaches-learners-without-supplying-coordination",
+      "content_hash": "sha256:1ca4940c37fb1fbea8933a2f35e386e38685c9b4cf09ba6fc833b90bdd1d2bcf",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:5.3 - A demonstration reaches learners without supplying coordination",
+      "line": 32,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#a-demonstration-reaches-learners-without-supplying-coordination"
+    },
+    {
+      "anchor": "a-recipient-hazard-becomes-a-population-flow",
+      "content_hash": "sha256:fde558c81c3b00d18709ae798e33b9ea8c75966495aa997b2227e999ceee652d",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:5.4 - A recipient hazard becomes a population flow",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#a-recipient-hazard-becomes-a-population-flow"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:87347859e44ef6f3a6cd16b8a21b497b273a2da10852f0c32981d9b31ece94d8",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:6 - Bias-Annotation",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:3be4dfe9fa3d49cc9c8044a946859ef2a1876d759364ec81fac5aec735920c09",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 50,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:0b59bad832aa5c901836bb0747729fb351d12cc9aa34b3b46fe7bb39fbdcbf49",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:10 - Rationale",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:183fc2f21bdbb2fefc3f1987ea58cbcc585b184d847e462020d95260fbb25665",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:11 - SoTA-Echoing",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:7c658c8aef27ce4e30c5623188ab6f1a5be235e5c97dacb24f686ceeb938de9a",
+      "doc_path": "source/DTM-2",
+      "file": "vibevm/vibespecs/source/DTM-2.md",
+      "heading": "DTM.2:End",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-2#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:a7b533cbab2d39e34b12c689fd630c01e81a9fb6848bdbf338cad4b4b8c32dc5",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3 - Couple Change Within Carriers to Spread Between Them: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:ad7712cfc6c53e1c6fc05ae643ee91fb956dc626ef92d00786be5c654123da91",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#archetypal-grounding"
+    },
+    {
+      "anchor": "equal-average-readiness-can-imply-different-spread",
+      "content_hash": "sha256:07a1731b908011d110f1e4391e233dbf8ad743e812fa20a35a8c4903e98f3f4b",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:5.1 - Equal average readiness can imply different spread",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#equal-average-readiness-can-imply-different-spread"
+    },
+    {
+      "anchor": "growth-can-reduce-the-support-available-to-each-learner",
+      "content_hash": "sha256:a799b9bcfa89218608f6b3acffd0ef19ca28458e3efb4e021b55c19ad19d7c42",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:5.2 - Growth can reduce the support available to each learner",
+      "line": 19,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#growth-can-reduce-the-support-available-to-each-learner"
+    },
+    {
+      "anchor": "spread-changes-compatibility-without-changing-a-learner",
+      "content_hash": "sha256:7d1c5af37629f9e95e7ad77062031bd408318348866a9d46ff1d520e80f87fc7",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:5.3 - Spread changes compatibility without changing a learner",
+      "line": 36,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#spread-changes-compatibility-without-changing-a-learner"
+    },
+    {
+      "anchor": "repeated-opportunities-do-not-create-repeated-first-uptake",
+      "content_hash": "sha256:576041b74d80a0be230cdbdb31b0c9783d9117da89be0399a4c995d2e52137cb",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:5.4 - Repeated opportunities do not create repeated first uptake",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#repeated-opportunities-do-not-create-repeated-first-uptake"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:8cf739b18ee03b177eed2222c0f3becd1ae50308886af2ebe5d42d939ca7ce22",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:6 - Bias-Annotation",
+      "line": 50,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:e1c7ee558217e6a3f49ad6c9b6ec45bebcb775da2cf5063323b50bd1afd3c8c6",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:9f799ed411559f9c6958e8a08b72a4e93c7dc106ec169040d25d8c3ab5d93939",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:10 - Rationale",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:99c7aab13302235cdbe2205045cc94c3e133b7207d4afc149ab87c523a213eb9",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:11 - SoTA-Echoing",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:c65cb38420470e7aca306a93cc3ca9b9cca102010af5d896608f17b9e32cc0fa",
+      "doc_path": "source/DTM-3",
+      "file": "vibevm/vibespecs/source/DTM-3.md",
+      "heading": "DTM.3:End",
+      "line": 79,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-3#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:514856eb13e5d728bc4bdbd87316cb73cebcc1fa873ff007cd77ac434c9f1332",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4 - Find Conditions for Variant Invasion, Persistence and Return: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:9c311b21ffdbb75b09431d374e6c6325c3f25151d432ad0cbbbc51d5f40ce74c",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#archetypal-grounding"
+    },
+    {
+      "anchor": "rare-growth-and-persistence-give-different-answers",
+      "content_hash": "sha256:629cab4fecc6bca2dbfe1ed8173fed8f21b3f5f7cdcef00eda51ccd00813112d",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:5.1 - Rare growth and persistence give different answers",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#rare-growth-and-persistence-give-different-answers"
+    },
+    {
+      "anchor": "a-temporary-reduction-can-be-followed-by-return",
+      "content_hash": "sha256:14f20624a284fc90edd88864c5d3c2dfd18a4b5c6e8f1fe518e218dab640cf78",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:5.2 - A temporary reduction can be followed by return",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#a-temporary-reduction-can-be-followed-by-return"
+    },
+    {
+      "anchor": "compatibility-changes-a-threshold-but-does-not-guarantee-uptake",
+      "content_hash": "sha256:431d6fe5958bc4439c53c0978f38552aa5fae5c7975c3deec3ed18654b3d4b54",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:5.3 - Compatibility changes a threshold but does not guarantee uptake",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#compatibility-changes-a-threshold-but-does-not-guarantee-uptake"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:be04c94674f73d8055c82ca03d23d04aaad6302e0ef82350aa83c1685925bc9f",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:6 - Bias-Annotation",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:4f334634a70917aea400ac87f52fa250d398be152759eb6006188278b4381edc",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:242d5c4daad33f62e4dc6f5c6d62711d3c0edf143b117196666b7b71235f038c",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:10 - Rationale",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:9375e748b71e0999bdeaf377cb5c7ac2c1a617510a0952347f8cc252e07fa40f",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:11 - SoTA-Echoing",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:d110a84337caffbc150dfed9fc8196db2a3f10e787cd06bad376d080d439de23",
+      "doc_path": "source/DTM-4",
+      "file": "vibevm/vibespecs/source/DTM-4.md",
+      "heading": "DTM.4:End",
+      "line": 76,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-4#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:dc8c84885bd4b38d723b890c8ba27f78b8307989362b85746983d97db141a5c6",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5 - Separate Selection Within and Among Collectives: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:28200f4e5eb710d8ac2d18ea4bf471c260ac44798b9af237b89c0575c08affc2",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#archetypal-grounding"
+    },
+    {
+      "anchor": "within-group-increase-is-canceled-by-changing-contribution",
+      "content_hash": "sha256:3e9e3d7b68630ded8fe2b14c58029e8063fc5e8cc8bbe77fae82b0beafaa9d1b",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:5.1 - Within-group increase is canceled by changing contribution weights",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#within-group-increase-is-canceled-by-changing-contribution"
+    },
+    {
+      "anchor": "a-copied-method-can-change-without-being-selected",
+      "content_hash": "sha256:436e4e8856554926f9acb67f10228bc77ed101c8a9a94e73c7cf573956352305",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:5.2 - A copied method can change without being selected",
+      "line": 25,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#a-copied-method-can-change-without-being-selected"
+    },
+    {
+      "anchor": "counting-successor-collectives-answers-another-question",
+      "content_hash": "sha256:1957b1f074798195a5f888ee8202323e9eb3c1835c029b29ff541b013a26b41e",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:5.3 - Counting successor collectives answers another question",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#counting-successor-collectives-answers-another-question"
+    },
+    {
+      "anchor": "external-arrival-changes-the-receiving-mean",
+      "content_hash": "sha256:50b4476f70efe6d3374c67d86a37f8167c93d7bc4f3ebc9dc2223935225f8aa1",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:5.4 - External arrival changes the receiving mean",
+      "line": 37,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#external-arrival-changes-the-receiving-mean"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:32168b241dba8513f5cef13b6dcb4d0cb4f9a426955c12463e768085e4ee7f8e",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:6 - Bias-Annotation",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:cc5d5aad7ebda59c860dce5ed3404b78d6e364f35509c8c5ebd97b4403a53df6",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:ee0158f4ce2bf951f13d9dfc51d12c544684d30789452cbc4a2830203841a55a",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:10 - Rationale",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:8b5557028cee4a81325596ebc9063e9be826bd20b571912ef88d7756a388a2f7",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:11 - SoTA-Echoing",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:cdecf35e6ef3dc272f6b72f3dca5027958cebaa8acca79b78bf99d714b6e8bd6",
+      "doc_path": "source/DTM-5",
+      "file": "vibevm/vibespecs/source/DTM-5.md",
+      "heading": "DTM.5:End",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-5#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:720f9137cacca1787d8db54f55462b4f3456dd7a042fae0bd087249ac26ba2ea",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6 - Model Competition and Facilitation between Variants: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:b1ab60334c93e34e1a09e37b9cb197f0e939cc5da6307626efbfb4721b40deda",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#archetypal-grounding"
+    },
+    {
+      "anchor": "restricting-both-variants-can-favor-the-less-sensitive-one",
+      "content_hash": "sha256:fb2e1c6ba1c6d0e92e2b03fc10d6dc295f5ae9dc9c6976ffc8d83e24ee6708c4",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:5.1 - Restricting both variants can favor the less sensitive one",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#restricting-both-variants-can-favor-the-less-sensitive-one"
+    },
+    {
+      "anchor": "compatible-partners-can-make-an-unfamiliar-method-worth-adopting",
+      "content_hash": "sha256:860417ce7835b946048fbc02ec1ef63e0d89b581461d5cd48aa494340ccb80d5",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:5.2 - Compatible partners can make an unfamiliar method worth adopting",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#compatible-partners-can-make-an-unfamiliar-method-worth-adopting"
+    },
+    {
+      "anchor": "a-notation-practice-can-facilitate-another-method-s-transmission",
+      "content_hash": "sha256:c85c11a21cbbcddb297413061b42a4afe6434c9024c103f615d04e0dc67dfeba",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:5.3 - A notation practice can facilitate another method's transmission",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#a-notation-practice-can-facilitate-another-method-s-transmission"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:8bfb2f7c3f8c8771ea3eac67824c2ffe70075b2230ce398a190423e3e9fafac3",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:6 - Bias-Annotation",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:a371d1e7edbec21ac404513f65074ebbd261651ec11a76eb0a44055e875c2012",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 52,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:2fe5988a05e7e2a64ae3e9893ec5824a98fe52a986554b16d1b457ab99198961",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:10 - Rationale",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:dbfb0006c91525b9b2ef301ba17bdfcaafeab31b083e44ff0c0914663f251845",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:11 - SoTA-Echoing",
+      "line": 66,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:add24b822e5ae409e33baece687163f5a09055f313226aa830cd5f729e77831c",
+      "doc_path": "source/DTM-6",
+      "file": "vibevm/vibespecs/source/DTM-6.md",
+      "heading": "DTM.6:End",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-6#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:466e29c5efc3d6be701a747a39d031b5a8f2b9003f22fb1a68ddf0b0d25e88a5",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7 - Locate Diversion of a Shared Control or Cooperation Mechanism: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:e90ac0964eec4c644e383bb904ba233a64bb1223fc12a2a3d15b092cec355e72",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#archetypal-grounding"
+    },
+    {
+      "anchor": "a-catalogue-recommends-descriptions-instead-of-usable-methods",
+      "content_hash": "sha256:aae4393d03d5c1bbd69c27c700733edb443b3dc67de0b35dd4e7b4a6e433a6f9",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:5.1 - A catalogue recommends descriptions instead of usable methods",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#a-catalogue-recommends-descriptions-instead-of-usable-methods"
+    },
+    {
+      "anchor": "a-completion-count-can-sustain-incomplete-work",
+      "content_hash": "sha256:fdd8cecef0c63dd2756c851a0daec070e370e5412d71af36ab52dff34e071861",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:5.2 - A completion count can sustain incomplete work",
+      "line": 26,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#a-completion-count-can-sustain-incomplete-work"
+    },
+    {
+      "anchor": "resource-competition-is-not-necessarily-diversion",
+      "content_hash": "sha256:2886940cb7162c87cfea2139f792d5ffaf88709aa47a8406f5aa1c48fc888682",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:5.3 - Resource competition is not necessarily diversion",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#resource-competition-is-not-necessarily-diversion"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:0e31beae473be4b81ee606bbc2ab25fc91e2fd99918b2e95dc9a2332a609ea45",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:6 - Bias-Annotation",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:abd8ef7239dfaff4af516d1da22bfaf6e5a722f7eb7226af0279e03d6d6e86c1",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:becba726c9ad3aa8beaa5c35dce2a47b857a9166fa0c227556300857902e5062",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:10 - Rationale",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:be067526cabd4e0f4a96b056dd590d7ad2db48f43001e5c6d067a74f84d8ed2f",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:11 - SoTA-Echoing",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:17e98c93bf0506719103bbfd7eb349463cbcafbf1a61e6c0d2ebb08d12e2fb30",
+      "doc_path": "source/DTM-7",
+      "file": "vibevm/vibespecs/source/DTM-7.md",
+      "heading": "DTM.7:End",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-7#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:ea172bddcf0e3cc9f84dfa8d92f2f57d4310c13e8638b2e1fe240ad86f099a28",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8 - Compare Protective Actions against Continuing or Spreading Activity by Target and Remaining Effects: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:578bcc1c66fe9db2a67c05f611601db1b8f7b982c0d708e0a89eb6b45e4f8acd",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#archetypal-grounding"
+    },
+    {
+      "anchor": "fewer-contacts-and-fewer-errors-are-different-changes",
+      "content_hash": "sha256:dc839a1bab1f2104b11d385525a7f454e04e8a43bfd8a4f8dc3ae6c1c60cad13",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:5.1 - Fewer contacts and fewer errors are different changes",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#fewer-contacts-and-fewer-errors-are-different-changes"
+    },
+    {
+      "anchor": "the-same-unresolved-stock-can-hide-a-different-source",
+      "content_hash": "sha256:597c7398cbee64e37b7315af122948919daa80e2d7e0c4684a4381f63a710dae",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:5.2 - The same unresolved stock can hide a different source",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#the-same-unresolved-stock-can-hide-a-different-source"
+    },
+    {
+      "anchor": "protecting-exchange-without-rejecting-a-useful-new-method",
+      "content_hash": "sha256:ae0658874dacaffd489963e7cdc3ea02d76e311e1eed0346145f2173ad078ef9",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:5.3 - Protecting exchange without rejecting a useful new method",
+      "line": 32,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#protecting-exchange-without-rejecting-a-useful-new-method"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:12c3c7dfd52ac49ddd33352109c13f61fc97628cde7ea6d0958d1f4371527d5b",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:6 - Bias-Annotation",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:646df41510f68c6908dfec6567f96a1f7b678c77c42fa5cb3b5ceab721114f77",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:2577376623a890e8ed2be49390bfc3b574e8079112bd17a16beda2d203d84c6a",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:10 - Rationale",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:9d5f6e93bb7711bf598687263f2712fbd753601141b51828c0ecba3402bbd2d0",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:11 - SoTA-Echoing",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:16cb077d1b082bf085e3c66a11657a368be27f6a0153fb61d38c8043dc3c75d2",
+      "doc_path": "source/DTM-8",
+      "file": "vibevm/vibespecs/source/DTM-8.md",
+      "heading": "DTM.8:End",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-8#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:a3169f96dbb6d8f135a8db8e66cbd8c7ad932cf6e114da9646eb86aec452bef4",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9 - Model Damage and Feedback from Protective Responses to Continuing or Spreading Activity: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:deff6c9de19cba7d49b8fdc451f2844cbbc86882e5e7cddd12e49bd763177e58",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#archetypal-grounding"
+    },
+    {
+      "anchor": "a-broad-response-releases-the-variant-it-was-meant-to-limit",
+      "content_hash": "sha256:fece9c2690f5de2edb4c5aa01b3696cffa2a5480afcf4125bbe61244ecad8c29",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:5.1 - A broad response releases the variant it was meant to limit",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#a-broad-response-releases-the-variant-it-was-meant-to-limit"
+    },
+    {
+      "anchor": "a-local-consequence-and-further-spread-can-move-differently",
+      "content_hash": "sha256:e6ed9a576ec87f640ab69ced9abe6de3318b8fd70706c88c124e77bd9dec13ee",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:5.2 - A local consequence and further spread can move differently",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#a-local-consequence-and-further-spread-can-move-differently"
+    },
+    {
+      "anchor": "a-successful-restriction-may-leave-another-continuation-route",
+      "content_hash": "sha256:cd1ebe788fd976cf458fd0e338d004a83ab4203d758eea339ebf8a865bb4430e",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:5.3 - A successful restriction may leave another continuation route",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#a-successful-restriction-may-leave-another-continuation-route"
+    },
+    {
+      "anchor": "memory-can-outlast-the-condition-that-formed-it",
+      "content_hash": "sha256:dd8c15dbeb1fb62b18b03f1740d3e662a70bac0b3752cf12a1111043dd08e7b9",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:5.4 - Memory can outlast the condition that formed it",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#memory-can-outlast-the-condition-that-formed-it"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:c9fd2c22bd9b557f7eb41725ec6467e57e97caf60745ce03af2a3fd0c1e11166",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:6 - Bias-Annotation",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:a9fb604a629b1e451c117fb824b3a78e38ecce24895908c9820e3feecd34bd6d",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 79,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:599f785602c13c7b9bf7ac3c6782b8f801fa5faefc49628a4e7552dbd1ba9a33",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:10 - Rationale",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:7f4971cc31ce4f11f00682998742735bd8c03e57831d64a48f724392af6b271c",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:11 - SoTA-Echoing",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:2e915f400b44ad00c5a46c701fb862864c0fd796c111bd45ed0c1c61db663158",
+      "doc_path": "source/DTM-9",
+      "file": "vibevm/vibespecs/source/DTM-9.md",
+      "heading": "DTM.9:End",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-dtm/source/DTM-9#end"
+    }
+  ],
+  "suspects": [],
+  "warnings": []
+}
